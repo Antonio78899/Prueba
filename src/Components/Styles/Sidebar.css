@@ -1,0 +1,59 @@
+/* Sidebar.css */
+.sidebar {
+    width: 250px; /* Ancho del sidebar */
+    background-color: #ff8300; /* Color de fondo */
+    min-height: 100vh; /* Ocupa toda la altura */
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fijo a la izquierda */
+    left: -250px; /* Oculto inicialmente */
+    transition: left 0.3s; /* Transición suave */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.sidebar.open {
+    left: 0; /* Muestra el sidebar */
+}
+
+.sidebar.closed {
+    left: -250px; /* Oculto */
+}
+
+.toggle-btn {
+    position: absolute; /* Fija la posición del botón */
+    top: 20px; /* Distancia desde la parte superior */
+    right: -70px; /* Coloca el botón fuera de la barra lateral */
+    background-color: #ff8300; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 15px; /* Espaciado */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+.toggle-btn:hover {
+    background-color: #e37200; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para los botones del sidebar */
+.sidebar-buttons {
+    display: flex;
+    flex-direction: column; /* Alinear los botones en una columna */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.sidebar-button {
+    background-color: #ffffff; /* Color de fondo de los botones */
+    color: #333; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px; /* Espaciado */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espaciado entre botones */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+.sidebar-button:hover {
+    background-color: #e0e0e0; /* Color de fondo al pasar el ratón */
+}

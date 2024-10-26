@@ -1,0 +1,87 @@
+/* Estilos generales del contenedor */
+body{
+  background-image: url('../../../public/Fondo.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  margin: 0;
+}
+
+.login-container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.login-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ff8300;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: aliceblue;
+  color: black;
+}
+
+
+button.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff8300;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button.login-button:hover {
+  background-color: #e37200;
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 15px;
+  color: #ff8300;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+}

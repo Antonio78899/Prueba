@@ -1,0 +1,5 @@
+/* Estilo general del contenedor del Dashboard */
+.dashboard-container {
+  display: flex;
+  height: 100vh; /* Altura completa */
+}

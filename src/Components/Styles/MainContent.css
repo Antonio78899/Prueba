@@ -1,0 +1,47 @@
+/* Estilo general del contenido principal */
+.main-content {
+    flex-grow: 1; /* Permite que el contenido crezca */
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh; /* Ocupa toda la altura */
+}
+
+/* Estilo del panel de usuario */
+.user-info {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.user-details {
+    color: #333;
+}
+
+.dashboard-options div {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+}
+
+.general{
+    display: flex;
+    flex-direction: column;
+}
+
+.pantalla{
+    display: grid;
+grid-auto-flow: column;
+}
+
+.main-content h2{
+    width: 100%;
+}
